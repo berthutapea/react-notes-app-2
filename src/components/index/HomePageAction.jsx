@@ -11,7 +11,7 @@ export default function HomePageAction() {
       <button
         className="action"
         type="button"
-        title="Tambah"
+        title="Add"
         onClick={() => navigate('/notes/new')}
       >
         <HiPlus />

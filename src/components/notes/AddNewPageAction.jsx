@@ -13,7 +13,7 @@ function AddNewPageAction({ handleSave }) {
         <button
           className="action"
           type="button"
-          title="Tambah"
+          title="Close"
           onClick={() => navigate('/')}
         >
           <HiX />
@@ -21,7 +21,7 @@ function AddNewPageAction({ handleSave }) {
         <button
           className="action"
           type="button"
-          title="Tambah"
+          title="Add"
           onClick={() => handleSave()}
         >
           <HiCheck />
