@@ -16,7 +16,7 @@ function App() {
     <div className="app-container">
       <header>
         <h1>
-          <Link to="/">Aplikasi Catatan</Link>
+          <Link to="/">BetHup Note</Link>
         </h1>
         <NavMenu />
       </header>

@@ -9,7 +9,7 @@ export default function NavMenu() {
       <ul>
         <li>
           {pathname !== '/archives'
-            ? <Link to="/archives" title="Archives">Arsip</Link>
+            ? <Link to="/archives" title="Archives">Archive</Link>
             : <Link to="/" title="Home">Home</Link>}
 
         </li>

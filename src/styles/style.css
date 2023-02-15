@@ -51,7 +51,10 @@ header {
 }
 
 header h1 {
+  margin: 8px 0;
   flex: 1;
+  color: white;
+  font-size: 25px;
 }
 
 header .navigation ul li {
@@ -92,6 +95,7 @@ main {
   text-align: center;
   color: var(--on-background-grey);
 }
+
 .note-item {
   padding: 16px;
   border-radius: 8px;
@@ -120,7 +124,7 @@ main {
 
 .detail-page {
   margin: 0 auto;
-  margin-top: 32px; 
+  margin-top: 32px;
   width: 90%;
 }
 
@@ -139,11 +143,15 @@ main {
   margin-top: 36px;
   font-size: 18px;
 }
+
 .detail-page__body a {
   text-decoration: underline;
 }
 
-.detail-page__action, .homepage__action, .add-new-page__action, .edit-page__action {
+.detail-page__action,
+.homepage__action,
+.add-new-page__action,
+.edit-page__action {
   position: fixed;
   display: flex;
   gap: 16px;
@@ -166,11 +174,13 @@ main {
   cursor: pointer;
 }
 
-.add-new-page__input, .edit-page__input {
+.add-new-page__input,
+.edit-page__input {
   margin-top: 32px;
 }
 
-.add-new-page__input .add-new-page__input__title, .edit-page__input .edit-page__input__title {
+.add-new-page__input .add-new-page__input__title,
+.edit-page__input .edit-page__input__title {
   width: 100%;
   background-color: transparent;
   border: 0;
@@ -181,11 +191,13 @@ main {
   padding: 8px 0;
 }
 
-.add-new-page__input__title::placeholder, .edit-page__input__title::placeholder {
+.add-new-page__input__title::placeholder,
+.edit-page__input__title::placeholder {
   color: var(--on-background-grey);
 }
 
-.add-new-page__input .add-new-page__input__body, .edit-page__input .edit-page__input__body {
+.add-new-page__input .add-new-page__input__body,
+.edit-page__input .edit-page__input__body {
   width: 100%;
   background-color: transparent;
   border: 0;
@@ -196,7 +208,8 @@ main {
   min-height: 500px;
 }
 
-.rdw-editor-toolbar, .rdw-dropdown-selectedtext {
+.rdw-editor-toolbar,
+.rdw-dropdown-selectedtext {
   color: #333333;
 }
 
@@ -220,7 +233,8 @@ main {
   color: var(--on-background-grey);
 }
 
-.toggle-theme, .toggle-locale {
+.toggle-theme,
+.toggle-locale {
   background-color: transparent;
   border: 0;
   cursor: pointer;
@@ -238,16 +252,19 @@ main {
   font-size: 28px;
 }
 
-.input-login, .input-register {
+.input-login,
+.input-register {
   margin: 32px 0;
 }
 
-.input-login label, .input-register label {
+.input-login label,
+.input-register label {
   font-size: 24px;
   font-weight: lighter;
 }
 
-.input-login input, .input-register input {
+.input-login input,
+.input-register input {
   font-size: 18px;
   font-family: 'Inter', sans-serif;
   margin-top: 8px;
@@ -261,7 +278,8 @@ main {
   color: var(--on-background)
 }
 
-.input-login button, .input-register button {
+.input-login button,
+.input-register button {
   font-family: 'Inter', sans-serif;
   font-weight: bold;
   font-size: 24px;
@@ -290,7 +308,7 @@ main {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .detail-page__title { 
+  .detail-page__title {
     font-size: 64px;
   }
 }

@@ -5,7 +5,7 @@ const showFormattedDate = (date) => {
     month: 'long',
     day: 'numeric'
   }
-  return new Date(date).toLocaleDateString('id-ID', options)
+  return new Date(date).toLocaleDateString('en-US', options)
 }
 
 const capitalizeFirstLetter = (string) => string.charAt(0).toUpperCase() + string.slice(1)
