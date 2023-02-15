@@ -62,7 +62,7 @@ export default function NotesIdEditPages() {
         <>
           <Link
             to="/"
-            title="Kembali"
+            title="Back"
           >
             <HiArrowLeft />
             {' '}

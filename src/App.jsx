@@ -27,7 +27,7 @@ function App() {
           <Route path="/notes" element={<Navigate to="/" replace />} />
           <Route path="/notes/new" element={<NotesNewPages />} />
           <Route path="/notes/:id" element={<NotesIdPages />} />
-          <Route path="/notes/:id/edit" element={<NotesIdEditPages />} />
+          <Route path="/notes/:id/sunting" element={<NotesIdEditPages />} />
           <Route path="*" element={<NotFoundPages />} />
         </Routes>
       </main>

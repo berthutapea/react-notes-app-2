@@ -15,7 +15,7 @@ export default function NotesIdPages() {
   const navigate = useNavigate()
 
   const handleEdit = () => {
-    navigate(`/notes/${id}/edit`)
+    navigate(`/notes/${id}/sunting`)
   }
 
   const handleArchive = () => {
@@ -42,24 +42,24 @@ export default function NotesIdPages() {
 
   return (
     <section className="detail-page">
-      { 'id' in note ? (
+      {'id' in note ? (
         <>
           <Link
             to="/"
-            title="Kembali"
+            title="Back"
           >
             <HiArrowLeft />
             {' '}
             Back
           </Link>
           <h3 className="detail-page__title">
-            { note.title }
+            {note.title}
           </h3>
           <p className="detail-page__createdAt">
             {showFormattedDate(note.createdAt)}
           </p>
           <div className="detail-page__body">
-            { parser(note.body) }
+            {parser(note.body)}
           </div>
         </>
       ) : (
