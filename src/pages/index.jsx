@@ -24,11 +24,11 @@ export default function IndexPage() {
   }, [search])
   return (
     <section className="homepage">
-      <h2>Catatan Aktif</h2>
+      <h2>Active Notes</h2>
       <section className="search-bar">
         <input
           type="text"
-          placeholder="Cari berdasarkan judul ..."
+          placeholder="Search for notes..."
           value={search}
           onChange={handleSearch}
         />
