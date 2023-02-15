@@ -66,7 +66,7 @@ export default function NotesIdEditPages() {
           >
             <HiArrowLeft />
             {' '}
-            Kembali
+            Back
           </Link>
           <div className="edit-page__input">
             <input
