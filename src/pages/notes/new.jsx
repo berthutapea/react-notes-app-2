@@ -16,7 +16,7 @@ export default function NotesNewPages() {
     title: '',
     body: EditorState.createWithContent(
       ContentState.createFromBlockArray(
-        convertFromHTML('<b><i><u>Isi Catatan</u></i></b>')
+        convertFromHTML('<b><i>Your notes here...</i></b>')
       )
     )
   })
@@ -41,7 +41,7 @@ export default function NotesNewPages() {
       <div className="add-new-page__input">
         <input
           className="add-new-page__input__title"
-          placeholder="Judul"
+          placeholder="Title"
           value={form.title}
           onChange={handleChange}
         />

@@ -17,7 +17,7 @@ export default function NotesIdEditPages() {
     title: '',
     body: EditorState.createWithContent(
       ContentState.createFromBlockArray(
-        convertFromHTML('<b><i><u>Isi Catatan</u></i></b>')
+        convertFromHTML('<b><i>Your notes here..</i></b>')
       )
     )
   })
@@ -58,7 +58,7 @@ export default function NotesIdEditPages() {
 
   return (
     <section className="edit-page">
-      { form.id !== '' ? (
+      {form.id !== '' ? (
         <>
           <Link
             to="/"
@@ -71,7 +71,7 @@ export default function NotesIdEditPages() {
           <div className="edit-page__input">
             <input
               className="edit-page__input__title"
-              placeholder="Judul"
+              placeholder="Title"
               value={form.title}
               onChange={handleChange}
             />

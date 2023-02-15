@@ -50,7 +50,7 @@ export default function NotesIdPages() {
           >
             <HiArrowLeft />
             {' '}
-            Kembali
+            Back
           </Link>
           <h3 className="detail-page__title">
             { note.title }
