@@ -18,21 +18,21 @@ function AddNewPageAction({ handleSave }) {
         >
           <HiX />
         </button>
-        {/* <button
+        <button
           className="action"
           type="button"
           title="Add"
           onClick={() => handleSave()}
         >
           <HiCheck />
-        </button> */}
+        </button>
       </>
     </PageAction>
   )
 }
 
-AddNewPageAction.propTypes = {
-  handleSave: PropTypes.func.isRequired
-}
+// AddNewPageAction.propTypes = {
+//   handleSave: PropTypes.func.isRequired
+// }
 
 export default AddNewPageAction
