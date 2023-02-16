@@ -1,17 +1,17 @@
-// import React from 'react'
-// import PropTypes from 'prop-types'
+import React from 'react'
+import PropTypes from 'prop-types'
 
-// function PageAction({ page, children }) {
-//   return (
-//     <div className={`${page}__action`}>
-//       { children }
-//     </div>
-//   )
-// }
+function PageAction({ page, children }) {
+  return (
+    <div className={`${page}__action`}>
+      { children }
+    </div>
+  )
+}
 
-// PageAction.propTypes = {
-//   page: PropTypes.string.isRequired,
-//   children: PropTypes.element.isRequired
-// }
+PageAction.propTypes = {
+  page: PropTypes.string.isRequired,
+  children: PropTypes.element.isRequired
+}
 
-// export default PageAction
+export default PageAction
