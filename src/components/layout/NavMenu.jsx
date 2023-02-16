@@ -12,11 +12,11 @@
 //             ? <Link to="/archives" title="Archives">Archive</Link>
 //             : <Link to="/" title="Home">Home</Link>}
 
-//         </li>
-//         <li>
-//           <ThemeToggler />
-//         </li>
-//       </ul>
-//     </nav>
-//   )
-// }
+        </li>
+        <li>
+          <ThemeToggler />
+        </li>
+      </ul>
+    </nav>
+  )
+}
