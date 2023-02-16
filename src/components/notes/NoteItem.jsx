@@ -22,7 +22,7 @@ function NoteItem({ note }) {
 }
 
 NoteItem.propTypes = {
-  note: PropTypes.oneOfType([PropTypes.object]).isRequired
+  note: PropTypes.oneOfType([PropTypes.shape]).isRequired
 }
 
 export default NoteItem
