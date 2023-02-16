@@ -20,16 +20,16 @@ function ThemeToggler() {
     }
   }, [])
 
-  return (
-    <button
-      type="button"
-      onClick={() => changeTheme(theme === 'dark' ? 'light' : 'dark')}
-    >
-      {capitalizeFirstLetter(theme)}
-      {' '}
-      Theme
-    </button>
-  )
+  // return (
+  //   <button
+  //     type="button"
+  //     onClick={() => changeTheme(theme === 'dark' ? 'light' : 'dark')}
+  //   >
+  //     {capitalizeFirstLetter(theme)}
+  //     {' '}
+  //     Theme
+  //   </button>
+  // )
 }
 
 export default ThemeToggler
