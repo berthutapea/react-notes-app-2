@@ -10,14 +10,14 @@ function AddNewPageAction({ handleSave }) {
   return (
     <PageAction page="add-new-page">
       <>
-        <button
+        {/* <button
           className="action"
           type="button"
           title="Close"
           onClick={() => navigate('/')}
         >
           <HiX />
-        </button>
+        </button> */}
         <button
           className="action"
           type="button"
