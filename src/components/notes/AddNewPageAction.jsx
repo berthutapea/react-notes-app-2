@@ -31,8 +31,8 @@
 //   )
 // }
 
-// // AddNewPageAction.propTypes = {
-// //   handleSave: PropTypes.func.isRequired
-// // }
+AddNewPageAction.propTypes = {
+  handleSave: PropTypes.func.isRequired
+}
 
 // export default AddNewPageAction
